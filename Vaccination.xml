@@ -1,0 +1,32 @@
+<object-stream>
+  <com.example.emma__nolan.VaccinationCenterNode>
+    <contents>
+      <centerName>Kilkenny</centerName>
+      <address1>assa</address1>
+      <address2>assa</address2>
+      <country>Kilkenny</country>
+      <eircode>12</eircode>
+      <parkingSpace>34</parkingSpace>
+      <head>
+        <contents>
+          <boothId>K2</boothId>
+          <floorLevel>12</floorLevel>
+          <accessibility>No</accessibility>
+          <headi>
+            <contents>
+              <location>Kilkenny</location>
+              <date>2021-11-23</date>
+              <time>11.00</time>
+              <vaccine>AstraXeneca</vaccine>
+              <booth>K2</booth>
+              <batchNumber>123</batchNumber>
+              <ppsn>1234567A</ppsn>
+              <vaccinatorName>No</vaccinatorName>
+            </contents>
+          </headi>
+        </contents>
+      </head>
+      <last reference="../head"/>
+    </contents>
+  </com.example.emma__nolan.VaccinationCenterNode>
+</object-stream>

@@ -1,0 +1,12 @@
+<object-stream>
+  <com.example.emma__nolan.PatientNode>
+    <contents>
+      <name>Podge</name>
+      <ppsn>1234567A</ppsn>
+      <dateOfBirth>2021-11-16</dateOfBirth>
+      <address>ajsj</address>
+      <country>Kilkenny</country>
+      <phoneNum>1234567890</phoneNum>
+    </contents>
+  </com.example.emma__nolan.PatientNode>
+</object-stream>

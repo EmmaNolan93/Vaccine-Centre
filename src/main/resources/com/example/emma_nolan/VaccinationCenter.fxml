@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.emma_nolan.VaccinationCenterController">
+    <center>
+        <AnchorPane prefHeight="400.0" prefWidth="319.0" BorderPane.alignment="CENTER">
+            <Label layoutX="34.0" layoutY="66.0" prefHeight="17.0" prefWidth="64.0" text="Name" />
+            <TextField fx:id="name" layoutX="109.0" layoutY="62.0" onKeyPressed="#vcName" prefHeight="25.0" prefWidth="197.0" />
+            <Label layoutX="30.0" layoutY="102.0" prefHeight="17.0" prefWidth="64.0" text="Address" />
+            <TextField fx:id="address1" layoutX="109.0" layoutY="98.0" prefHeight="25.0" prefWidth="197.0" promptText="address line 1" />
+            <TextField fx:id="address2" layoutX="109.0" layoutY="131.0" prefHeight="25.0" prefWidth="197.0" promptText="address line 2" />
+            <TextField fx:id="country" layoutX="109.0" layoutY="166.0" prefHeight="25.0" prefWidth="197.0" promptText="Country" />
+            <Label layoutX="18.0" layoutY="207.0" prefHeight="17.0" prefWidth="56.0" text="Eircode" />
+            <TextField fx:id="eircode" layoutX="109.0" layoutY="203.0" prefHeight="25.0" prefWidth="197.0" promptText="Eircode" />
+            <Label layoutX="16.0" layoutY="249.0" prefHeight="17.0" prefWidth="91.0" text="Parking spaces" />
+            <TextField fx:id="parkingSpaces" layoutX="109.0" layoutY="245.0" onKeyTyped="#park" prefHeight="25.0" prefWidth="197.0" />
+            <Button fx:id="sumbit" layoutX="94.0" layoutY="295.0" mnemonicParsing="false" onAction="#submits" prefHeight="25.0" prefWidth="105.0" text="Submit" />
+            <Button fx:id="goBack" layoutX="208.0" layoutY="295.0" mnemonicParsing="false" onAction="#goBacks" prefHeight="25.0" prefWidth="105.0" text="Go Back" />
+            <Label fx:id="vcName"  layoutX="320.0" layoutY="66.0" prefHeight="17.0" prefWidth="107.0" />
+            <Label fx:id="pS" layoutX="320.0" layoutY="249.0" prefHeight="17.0" prefWidth="152.0" />
+            <Label fx:id="lS"  layoutX="94.0" layoutY="320.0" prefHeight="17.0" prefWidth="152.0"  />
+        </AnchorPane>
+    </center>
+</BorderPane>

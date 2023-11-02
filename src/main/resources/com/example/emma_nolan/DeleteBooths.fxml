@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.emma_nolan.DeleteBoothController">
+    <ChoiceBox fx:id="center" layoutX="76.0" layoutY="55.0" onAction="#choiceBoxB" prefWidth="150.0" />
+    <ChoiceBox fx:id="booth" layoutX="76.0" layoutY="96.0" prefWidth="150.0" />
+    <Button layoutX="76.0" layoutY="148.0" mnemonicParsing="false" onAction="#del" text="Delete" />
+    <Button fx:id="r" layoutX="175.0" layoutY="148.0" mnemonicParsing="false" onAction="#r" text="Return" />
+    <Label layoutX="23.0" layoutY="59.0" text="Center" />
+    <Label layoutX="23.0" layoutY="100.0" text="Booth" />
+    <Label fx:id="sD" layoutX="76.0" layoutY="185.0" />
+</AnchorPane>
